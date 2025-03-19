@@ -1,0 +1,15 @@
+{
+  "name": "evm-tokendiy-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "zod": "^3.24.2"
+  },
+  "scripts": {
+    "inspect": "npx @modelcontextprotocol/inspector node index.js"
+  }
+}
