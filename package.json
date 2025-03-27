@@ -1,6 +1,7 @@
 {
   "name": "token-minter-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "homepage": "https://github.com/kukapay/token-minter-mcp",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
