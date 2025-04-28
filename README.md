@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/mseep-audited.png)](https://mseep.ai/app/kukapay-token-minter-mcp)
+
 # Token Minter MCP
 
 An MCP server providing tools for AI agents to mint ERC-20 tokens, supporting 21 blockchains.
