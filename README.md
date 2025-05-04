@@ -1,6 +1,7 @@
 [![MseeP.ai Security Assessment Badge](https://mseep.net/mseep-audited.png)](https://mseep.ai/app/kukapay-token-minter-mcp)
 
 # Token Minter MCP
+[![smithery badge](https://smithery.ai/badge/@kukapay/token-minter-mcp)](https://smithery.ai/server/@kukapay/token-minter-mcp)
 
 An MCP server providing tools for AI agents to mint ERC-20 tokens, supporting 21 blockchains.
 
@@ -43,6 +44,16 @@ An MCP server providing tools for AI agents to mint ERC-20 tokens, supporting 21
 - An Ethereum private key for signing transactions
 
 ## Installation
+
+### Installing via Smithery
+
+To install Token Minter for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kukapay/token-minter-mcp):
+
+```bash
+npx -y @smithery/cli install @kukapay/token-minter-mcp --client claude
+```
+
+### Installing Manually
 
 1. **Clone the Repository**:
    ```bash
