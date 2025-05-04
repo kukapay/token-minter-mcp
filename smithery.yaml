@@ -1,0 +1,24 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - infuraKey
+      - privateKey
+    properties:
+      infuraKey:
+        type: string
+        description: Infura API key
+      privateKey:
+        type: string
+        description: Ethereum private key for signing transactions
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'node', args: ['server/index.js'], env: { INFURA_KEY: config.infuraKey, PRIVATE_KEY: config.privateKey } })
+  exampleConfig:
+    infuraKey: your_infura_project_id
+    privateKey: 0xYOUR_ETHEREUM_PRIVATE_KEY
